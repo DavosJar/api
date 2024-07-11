@@ -1,0 +1,9 @@
+<h1>Usuarios asociados a la aplicación</h1>
+<ul>
+  {% for usuario in usuarios %}
+  <li>{{ usuario.username }}</li>
+  {% empty %}
+  <li>No hay usuarios asociados a esta aplicación.</li>
+  {% endfor %}
+</ul>
+{% endblock %}

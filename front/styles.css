@@ -1,0 +1,50 @@
+/* Estilos para encabezados */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+h1,
+h2 {
+  color: #333; /* Color de texto oscuro para mejor contraste */
+  margin-bottom: 20px; /* Espacio debajo de los encabezados */
+  font-weight: normal; /* Evita que los encabezados sean demasiado gruesos */
+}
+
+/* Estilos para campos de formulario */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%; /* Hace que los campos ocupen el ancho completo de su contenedor */
+  padding: 10px; /* Espacio interno para hacer los campos más grandes */
+  margin-bottom: 20px; /* Espacio debajo de cada campo */
+  border: 1px solid #ccc; /* Borde sutil */
+  border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Estilos para botones */
+.button {
+  display: inline-block; /* Hace que el enlace se comporte como un bloque inline, permitiendo aplicar padding */
+  background-color: #007bff; /* Color de fondo azul */
+  color: white; /* Color de texto blanco para contraste */
+  padding: 10px 15px; /* Espacio interno para hacer el botón más grande */
+  text-align: center; /* Alinea el texto al centro */
+  text-decoration: none; /* Elimina el subrayado del enlace */
+  border-radius: 5px; /* Bordes redondeados */
+  transition: background-color 0.3s ease; /* Transición suave al cambiar de color */
+}
+
+/* Cambia el color de fondo al pasar el mouse */
+.button:hover {
+  background-color: #0056b3;
+}
+
+/* Estilos adicionales para diferenciar botones, si es necesario */
+.button.registro {
+  background-color: #28a745; /* Verde, por ejemplo, para el botón de registro */
+}
+
+.button.login {
+  background-color: #17a2b8; /* Azul claro, por ejemplo, para el botón de login */
+}
